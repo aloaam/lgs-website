@@ -1,0 +1,20 @@
+@import-normalize;
+@import "./styles/nav-bar.css";
+@import "./styles/home.css";
+@import "./styles/footer.css";
+@import "./styles/menu.css";
+@import "./styles/about.css";
+@import "./styles/contact.css";
+
+.App {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
