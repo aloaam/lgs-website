@@ -1,19 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import BannerImage from "../assets/images/pizza.jpeg";
+import LandingPageImage from "../assets/images/casa_de_lado.jpeg";
 
-function Home() {
+export default function Home() {
   return (
-    <div className="home" style={{ backgroundImage: `url(${BannerImage})` }}>
-      <div className="headerContainer">
-        <h1> LGS Pizzeria!</h1>
-        <p> One pizza to cheese them all!</p>
+    <div className="home">
+      <img
+        className="home_image"
+        style={{ backgroundImage: `url(${LandingPageImage})` }}
+      />
+
+      <div className="text-container">
+        <h1> Leslie Glass Systems</h1>
+        <p> We are currently under construction, but please check us out!</p>
         <Link to="menu">
-          <button> Order Now </button>
+          <button> Products </button>
         </Link>
       </div>
     </div>
   );
 }
-
-export default Home;
