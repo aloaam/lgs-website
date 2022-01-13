@@ -1,13 +1,9 @@
 import React from "react";
-import PizzaLeft from "../assets/images/pizzaLeft.jpg";
 
 export default function Contact() {
   return (
     <div className="contact">
-      <div
-        className="leftSide"
-        style={{ backgroundImage: `url(${PizzaLeft})` }}
-      ></div>
+      <div className="leftSide"></div>
       <div className="rightSide">
         <h1>Contact Us</h1>
         <form id="contact-form" method="POST">

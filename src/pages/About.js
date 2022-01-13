@@ -1,13 +1,9 @@
 import React from "react";
-import MulitplePizzas from "../assets/images/multiplePizzas.jpeg";
 
 export default function About() {
   return (
     <div className="about">
-      <div
-        className="aboutTop"
-        style={{ backgroundImage: `url(${MulitplePizzas})` }}
-      ></div>
+      <div className="aboutTop"></div>
       <div className="aboutBottom">
         <h1>About Us</h1>
         <p>
