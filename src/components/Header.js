@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../assets/svgs/lgo_logo_principal_negro.svg";
+import Logo from "../assets/svgs/lgs_logo_secundario_negro.svg";
 import { Link } from "react-router-dom";
 
 export default function NavBar() {
@@ -12,7 +12,7 @@ export default function NavBar() {
         <Link to="/">Home</Link>
         <Link to="/products">Products</Link>
         <Link to="/about">About</Link>
-        <Link to="/get-a-quote">Get a Quote</Link>
+        <Link to="/getAQuote">Get a Quote</Link>
         <Link to="/language">Language</Link>
       </div>
     </div>

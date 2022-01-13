@@ -1,28 +1,18 @@
-.contact {
-  width: 100%;
-  height: 90vh;
+.getAQuote {
+  min-height: 90vh;
   display: flex;
+  margin: 0 300px;
 }
 
-.contact .leftSide {
-  height: 100%;
-  flex: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.contact .rightSide {
-  height: 100%;
+.getAQuote__right-side {
+  padding-top: 100px;
   flex: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.contact .rightSide h1 {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+.getAQuote__right-side h1 {
   font-weight: 10;
   font-size: 50px;
   margin-left: 30px;
@@ -52,12 +42,13 @@ form textarea {
   border-bottom: 1px solid #121619;
   color: black;
 }
+
 input::placeholder,
 textarea::placeholder {
   font-weight: bold;
   color: black;
-  font-family: Arial, Helvetica, sans-serif;
 }
+
 form input:focus,
 textarea:focus {
   outline: none;

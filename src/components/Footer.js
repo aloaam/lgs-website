@@ -1,6 +1,7 @@
 import React from "react";
 import EmailIcon from "@mui/icons-material/Email";
 import CopyrightIcon from "@mui/icons-material/Copyright";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
 export default function Footer() {
   return (
@@ -8,6 +9,9 @@ export default function Footer() {
       <div className="footer__links">
         <span className="footer__links--email">
           <EmailIcon />
+        </span>
+        <span className="footer__links--whatsapp">
+          <WhatsAppIcon />
         </span>
         <span>Privacy Policy</span>
         <span>Terms of Use</span>
