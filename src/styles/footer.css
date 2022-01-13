@@ -10,13 +10,28 @@
   margin-top: 80px;
 }
 
-.socialMedia svg {
+.footer__links {
   color: white;
-  margin: 20px;
-  font-size: 40px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
 }
 
+.footer__links--email {
+  margin: 0.4rem;
+}
+
+.footer__links span {
+  margin: 0.7rem;
+}
 .footer p {
   color: white;
+  display: flex;
+  align-items: center;
+}
+
+.footer__copyright {
+  margin: 0.4rem;
+  transform: scale(0.72);
+  padding-top: 0.2rem;
 }
