@@ -1,13 +1,14 @@
 @import-normalize;
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap");
-@import "./styles/nav-bar.css";
+@import "./styles/header.css";
 @import "./styles/home.css";
 @import "./styles/footer.css";
-@import "./styles/menu.css";
+@import "./styles/products.css";
 @import "./styles/about.css";
 @import "./styles/contact.css";
 
 :root {
+  --header-height: 100px
   --primary-color: rgb(87, 87, 87);
 }
 body {

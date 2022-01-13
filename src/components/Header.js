@@ -10,7 +10,7 @@ export default function NavBar() {
       </div>
       <div className="header__nav-bar">
         <Link to="/">Home</Link>
-        <Link to="/menu">Menu</Link>
+        <Link to="/products">Products</Link>
         <Link to="/about">About</Link>
         <Link to="/get-a-quote">Get a Quote</Link>
         <Link to="/language">Language</Link>

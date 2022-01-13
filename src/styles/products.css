@@ -1,17 +1,20 @@
-.menu {
+.products {
   width: 100%;
-  height: auto;
+  min-height: 100vh;
+
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.menu .menuTitle {
+.products .menuTitle {
   font-family: cursive;
   font-size: 60px;
 }
 
 .menuList {
+  margin-top: 200px;
+
   width: 70vw;
   height: auto;
   display: grid;
@@ -52,16 +55,4 @@ h1 {
 .menuItem h1,
 .menuItem p {
   margin-left: 20px;
-}
-
-@media only screen and (max-width: 1300px) {
-  .menuList {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .menuList {
-    grid-template-columns: 1fr;
-  }
 }

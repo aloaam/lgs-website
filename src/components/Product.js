@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function MenuItem(props) {
+export default function Product(props) {
   const { name, image, price } = props;
   return (
     <div className="menuItem">
