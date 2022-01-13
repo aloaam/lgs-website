@@ -1,33 +1,19 @@
-import React, { useState } from "react";
-import Logo from "../assets/svgs/lgs_logo_principal_blanco.svg";
+import React from "react";
+import Logo from "../assets/svgs/lgo_logo_principal_negro.svg";
 import { Link } from "react-router-dom";
-import ReorderIcon from "@mui/icons-material/Reorder";
 
 export default function NavBar() {
-  const [openLinks, setOpenLinks] = useState(false);
-
-  const toggleNavBar = () => {
-    setOpenLinks(!openLinks);
-  };
   return (
-    <div className="navbar">
-      <div className="leftSide" id={openLinks ? "open" : "close"}>
-        <img className="navbar__logo" src={Logo} alt="logo" />
-        <div className="hiddenLinks">
-          <Link to="/">Home</Link>
-          <Link to="/menu">Menu</Link>
-          <Link to="/about">About</Link>
-          <Link to="/contact">Contact</Link>
-        </div>
+    <div className="header">
+      <div className="header__logo">
+        <img src={Logo} alt="logo" />
       </div>
-      <div className="rightSide">
+      <div className="header__nav-bar">
         <Link to="/">Home</Link>
         <Link to="/menu">Menu</Link>
         <Link to="/about">About</Link>
-        <Link to="/contact">Contact</Link>
-        <button onClick={toggleNavBar}>
-          <ReorderIcon />
-        </button>
+        <Link to="/get-a-quote">Get a Quote</Link>
+        <Link to="/language">Language</Link>
       </div>
     </div>
   );

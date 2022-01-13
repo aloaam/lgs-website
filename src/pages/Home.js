@@ -11,7 +11,7 @@ export default function Home() {
       />
 
       <div className="text-container">
-        <h1> Leslie Glass Systems</h1>
+        <h1> Leslie Glass Suppliers</h1>
         <p> We are currently under construction, but please check us out!</p>
         <Link to="menu">
           <button> Products </button>
