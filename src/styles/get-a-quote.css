@@ -1,18 +1,24 @@
-.getAQuote {
+.get-a-quote {
   min-height: 90vh;
   display: flex;
-  margin: 0 300px;
 }
 
-.getAQuote__right-side {
-  padding-top: 100px;
-  flex: 50%;
+.quote-middle-part {
+  display: flex;
+}
+
+.get-a-quote__left-side {
+  width: 40rem;
+}
+
+.get-a-quote__right-side {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: 10rem;
 }
 
-.getAQuote__right-side h1 {
+.get-a-quote__right-side h1 {
   font-weight: 10;
   font-size: 50px;
   margin-left: 30px;
