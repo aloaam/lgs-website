@@ -7,6 +7,7 @@
   justify-content: space-between;
   box-shadow: 0 0 20px 0 gray;
   z-index: 1000;
+  /* opacity: 50%; */
 }
 
 .header__logo {

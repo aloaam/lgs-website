@@ -5,6 +5,7 @@
 
 .quote-middle-part {
   display: flex;
+  justify-content: space-between;
 }
 
 .get-a-quote__left-side {
