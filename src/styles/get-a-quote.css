@@ -64,9 +64,14 @@ form button {
   width: 140px;
   height: 40px;
   border: none;
-  background-color: #121619;
+  background-color: gray;
   color: whitesmoke;
   font-size: 15px;
   cursor: pointer;
   border-radius: 15px;
+}
+
+.small-letters {
+  font-size: smaller;
+  font-style: italic;
 }
