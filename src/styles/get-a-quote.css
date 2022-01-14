@@ -9,6 +9,7 @@
 
 .get-a-quote__left-side {
   width: 40rem;
+  background-size: cover;
 }
 
 .get-a-quote__right-side {
