@@ -50,3 +50,9 @@
   cursor: pointer;
   transition: 0.3s ease-in;
 }
+
+.text-container__leslie-motto {
+  height: 300px;
+  background-repeat: no-repeat;
+  margin: 4rem 0;
+}

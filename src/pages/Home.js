@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import ProductImage from "../assets/images/pvc_landing_page.png";
+import LeslieMottoImage from "../assets/images/leslie_motto.png";
 
 export default function Home() {
   return (
@@ -12,6 +13,10 @@ export default function Home() {
           <Link to="products">
             <button> Products </button>
           </Link>
+          <div
+            className="text-container__leslie-motto"
+            style={{ backgroundImage: `url(${LeslieMottoImage})` }}
+          ></div>
         </div>
         <div
           className="product-image"
