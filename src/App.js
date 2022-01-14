@@ -4,7 +4,7 @@ import Footer from "./components/Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Products from "./pages/Products";
-import About from "./pages/About";
+import Company from "./pages/Company";
 import GetAQuote from "./pages/GetAQuote";
 
 export default function App() {
@@ -15,7 +15,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/products" element={<Products />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/company" element={<Company />} />
           <Route path="/getAQuote" element={<GetAQuote />} />
         </Routes>
         <Footer />
