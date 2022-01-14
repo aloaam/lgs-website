@@ -27,32 +27,27 @@
 form {
   display: flex;
   flex-direction: column;
-  width: auto;
-  height: auto;
   padding: 30px;
 }
 
 form input {
   height: 40px;
-  width: 80%;
+  width: 40%;
   border: none;
   border-bottom: 1px solid #121619;
   color: black;
 }
 
 form textarea {
-  margin-top: 15px;
   height: 70px;
-  width: 80%;
+  width: 40%;
   border: none;
   border-bottom: 1px solid #121619;
-  color: black;
 }
 
 input::placeholder,
 textarea::placeholder {
-  font-weight: bold;
-  color: black;
+  color: gray;
 }
 
 form input:focus,

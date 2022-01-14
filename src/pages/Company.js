@@ -1,16 +1,14 @@
 import React from "react";
+import CompanySkyCraper from "../assets/images/company_sky_craper.jpeg";
 
 export default function Company() {
   return (
     <div className="company">
+      <div
+        className="company__pic"
+        style={{ backgroundImage: `url(${CompanySkyCraper})` }}
+      ></div>
       <div className="company__text">
-        <div className="company__pic">
-          <h1>Aqui</h1>
-          <p>
-            Aqui me gustria poner la foto que esta en el catalogo, la primera,
-            de hasta arriba (bien puesto no como se ve aqui este cuadro)
-          </p>
-        </div>
         <h1>Who we are</h1>
         <p>
           Company for the purchase / sale of construction products and supplies
