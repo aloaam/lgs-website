@@ -16,7 +16,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/products" element={<Products />} />
           <Route path="/company" element={<Company />} />
-          <Route path="/getAQuote" element={<GetAQuote />} />
+          <Route path="/get-a-quote" element={<GetAQuote />} />
         </Routes>
         <Footer />
       </Router>
