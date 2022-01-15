@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import EmailIcon from "@mui/icons-material/Email";
 import CopyrightIcon from "@mui/icons-material/Copyright";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
@@ -8,7 +9,9 @@ export default function Footer() {
     <div className="footer">
       <div className="footer__links">
         <span className="footer__links--email">
-          <EmailIcon />
+          <Link to="get-a-quote">
+            <EmailIcon />
+          </Link>
         </span>
         <span className="footer__links--whatsapp">
           <WhatsAppIcon />

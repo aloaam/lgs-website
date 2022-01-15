@@ -6,11 +6,13 @@ import Home from "./pages/Home";
 import Products from "./pages/Products";
 import Company from "./pages/Company";
 import GetAQuote from "./pages/GetAQuote";
+import ScrollToTop from "./helpers/ScrollToTop";
 
 export default function App() {
   return (
     <div className="App">
       <Router>
+        <ScrollToTop />
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />

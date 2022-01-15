@@ -7,18 +7,20 @@
   align-items: center;
   flex-direction: column;
   padding-top: 10px;
-  /* margin-top: 80px; */
 }
 
 .footer__links {
   color: white;
-  cursor: pointer;
   display: flex;
   align-items: center;
 }
 
 .footer__links--email {
   margin: 0.4rem;
+}
+
+.footer__links--email a:visited {
+  color: white;
 }
 
 .footer__links span {
