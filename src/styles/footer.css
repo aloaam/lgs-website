@@ -23,6 +23,10 @@
   color: white;
 }
 
+.footer__links--whatsapp a:visited {
+  color: white;
+}
+
 .footer__links span {
   margin: 0.7rem;
 }
