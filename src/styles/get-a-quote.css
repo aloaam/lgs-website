@@ -1,0 +1,80 @@
+.get-a-quote {
+  min-height: 90vh;
+  display: flex;
+}
+
+.quote-middle-part {
+  display: flex;
+  justify-content: space-between;
+}
+
+.get-a-quote__left-side {
+  width: 40rem;
+  background-size: cover;
+}
+
+.get-a-quote__right-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10rem;
+}
+
+.get-a-quote__right-side h1 {
+  font-weight: 10;
+  font-size: 50px;
+  margin-left: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+form input {
+  height: 40px;
+  width: 40%;
+  border: none;
+  border-bottom: 1px solid #121619;
+  color: black;
+}
+
+form textarea {
+  height: 70px;
+  width: 40%;
+  border: none;
+  border-bottom: 1px solid #121619;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: gray;
+}
+
+form input:focus,
+textarea:focus {
+  outline: none;
+}
+
+form label {
+  margin-top: 15px;
+  color: grey;
+}
+
+form button {
+  margin-top: 40px;
+  width: 140px;
+  height: 40px;
+  border: none;
+  background-color: gray;
+  color: whitesmoke;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.small-letters {
+  font-size: smaller;
+  font-style: italic;
+}

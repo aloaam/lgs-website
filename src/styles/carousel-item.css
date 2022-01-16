@@ -1,0 +1,14 @@
+.products__carousel-item {
+  width: 500px;
+  height: 500px;
+
+  border: black solid 3px;
+  background-color: aqua;
+  color: black;
+  margin: 0 15px;
+  font-size: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
