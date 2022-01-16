@@ -10,6 +10,7 @@
   height: 22rem;
   object-fit: cover;
   background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .company__text {
