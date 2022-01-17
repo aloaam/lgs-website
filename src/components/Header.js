@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../assets/svgs/lgs_logo_secundario_negro.svg";
+import Logo from "../assets/svgs/lgs_logo_secundario.svg";
 import { Link } from "react-router-dom";
 
 export default function NavBar() {

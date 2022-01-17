@@ -32,12 +32,12 @@
 }
 
 .text-container button {
-  color: black;
+  background-color: gray;
   border: none;
   border-radius: 15px;
   cursor: pointer;
   justify-content: center;
-  background-color: #121619;
+
   height: 50px;
   width: 180px;
   color: white;
