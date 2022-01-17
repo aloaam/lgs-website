@@ -15,8 +15,8 @@ export default function NavBar() {
         <Link to="/products">Products</Link>
         <Link to="/company">Company</Link>
         <Link to="/get-a-quote">Get a Quote</Link>
-        <Link to="/">Language</Link>
       </div>
+      <div className="header__language-selection">EN | ES</div>
     </div>
   );
 }
