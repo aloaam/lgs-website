@@ -6,11 +6,12 @@ import Product from "../components/Product";
 export default function Products() {
   return (
     <div className="products">
-      <Carousel className="company_carousel-products">
-        {productList.map((pizza, key) => {
-          return <Product key={key} {...pizza} />;
-        })}
-      </Carousel>
+      <div class="switch-button">
+        <input class="switch-button-checkbox" type="checkbox"></input>
+        <label class="switch-button-label" for="">
+          <span class="switch-button-label-span">Photo</span>
+        </label>
+      </div>
     </div>
   );
 }

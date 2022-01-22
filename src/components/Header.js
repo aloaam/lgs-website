@@ -12,11 +12,11 @@ export default function NavBar() {
       </div>
       <div className="header__nav-bar">
         <Link to="/">Home</Link>
-        <Link to="/products">Products</Link>
+        {/* <Link to="/products">Products</Link> */}
         <Link to="/company">Company</Link>
         <Link to="/get-a-quote">Get a Quote</Link>
       </div>
-      <div className="header__language-selection">EN | ES</div>
+      {/* <div className="header__language-selection">EN | ES</div> */}
     </div>
   );
 }
