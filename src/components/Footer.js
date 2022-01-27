@@ -14,7 +14,7 @@ export default function Footer() {
           </Link>
         </span>
         <span className="footer__links--whatsapp">
-          <a href="https://web.whatsapp.com" target="_blank">
+          <a href="https://wa.me/message/W3BMJ5TLIXAGH1" target="_blank">
             <WhatsAppIcon />
           </a>
         </span>

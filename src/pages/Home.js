@@ -10,10 +10,10 @@ export default function Home() {
         <div className="text-container">
           <h1> Leslie Glass Suppliers</h1>
           <p>
-            Our site is currently under construction, but please check us out!
+            Our site is currently under construction, but please contact us!
           </p>
-          <Link to="products">
-            <button> Products </button>
+          <Link to="get-a-quote">
+            <button> Contact </button>
           </Link>
           <div
             className="text-container__leslie-motto"

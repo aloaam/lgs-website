@@ -11,8 +11,10 @@ export default function Company() {
       <div className="company__text">
         <h1>Who we are</h1>
         <p>
-          Company for the purchase / sale of construction products and supplies
-          in the United States. It is one of the Leslie Group companies.
+          Professionals committed to provide the best care and high quality
+          products to our clients. LGS distributes PVC Windows, processed glass
+          and mirrors, ready for installation, among other construction
+          supplies. We are part of Leslie Group.
         </p>
         <h1>Mission</h1>
         <p>

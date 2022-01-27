@@ -10,7 +10,7 @@ export default function GetAQuote() {
           style={{ backgroundImage: `url(${getAQuotePic})` }}
         ></div>
         <div className="get-a-quote__right-side">
-          <h1>Request a Quote or reach us at (956) 340 6882</h1>
+          <h1>Tell us more about your project or idea.</h1>
           <form id="contact-form" method="POST">
             <input
               name="first-name"

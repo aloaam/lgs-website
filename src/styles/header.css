@@ -7,19 +7,18 @@
   box-shadow: 0 0 20px 0 gray;
   z-index: 1000;
   gap: 1rem;
-  flex-basis: 100%;
+  justify-content: flex-start;
 }
 
 .header__logo {
   display: flex;
   align-items: center;
-  margin-left: 2rem;
   cursor: pointer;
 }
 
 .header__logo img {
-  width: 10rem;
-  margin-left: 21.3rem;
+  width: 7rem;
+  margin-left: 2rem;
 }
 
 .header__nav-bar {
