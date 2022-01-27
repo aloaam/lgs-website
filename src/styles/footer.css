@@ -19,11 +19,13 @@
   margin: 0.4rem;
 }
 
-.footer__links--email a:visited {
+.footer__links--email a:visited,
+.footer__links--email a:link {
   color: white;
 }
 
-.footer__links--whatsapp a:visited {
+.footer__links--whatsapp a:visited,
+.footer__links--whatsapp a:link {
   color: white;
 }
 

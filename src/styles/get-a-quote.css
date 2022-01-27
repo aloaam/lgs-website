@@ -86,7 +86,8 @@ form button {
   margin: 30px;
 }
 
-.get-a-quote__right-side--whatsapp a:visited {
+.get-a-quote__right-side--whatsapp a:visited,
+.get-a-quote__right-side--whatsapp a:link {
   color: var(--primary-color);
 }
 
