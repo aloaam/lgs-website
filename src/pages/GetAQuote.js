@@ -1,4 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import EmailIcon from "@mui/icons-material/Email";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+
 import getAQuotePic from "../assets/images/get_a_quote_pic.jpeg";
 
 export default function GetAQuote() {
@@ -48,6 +52,27 @@ export default function GetAQuote() {
             <p className="small-letters">* Mandatory fields</p>
             <button type="submit">Get a Quote</button>
           </form>
+
+          <div className="get-a-quote__right-side--contact-data">
+            <div className="get-a-quote__right-side--email">
+              <div className="get-a-quote__right-side--email-logo">
+                <EmailIcon />
+              </div>
+              <span className="get-a-quote__right-side--email-text">
+                contact@lgs-usa.com
+              </span>
+            </div>
+            <div className="get-a-quote__right-side--whatsapp">
+              <div className="get-a-quote__right-side--whatsapp-logo">
+                <a href="https://wa.me/message/W3BMJ5TLIXAGH1" target="_blank">
+                  <WhatsAppIcon />
+                </a>
+              </div>
+              <div className="get-a-quote__right-side--whatsapp-text">
+                <span>+1 (956) 340 6882 </span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

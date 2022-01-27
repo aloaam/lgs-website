@@ -78,3 +78,35 @@ form button {
   font-size: smaller;
   font-style: italic;
 }
+
+.get-a-quote__right-side--contact-data {
+  color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+}
+
+.get-a-quote__right-side--whatsapp a:visited {
+  color: var(--primary-color);
+}
+
+.get-a-quote__right-side--email {
+  display: flex;
+  align-items: center;
+
+  height: 50px;
+}
+
+.get-a-quote__right-side--email-text {
+  margin: 20px;
+}
+
+.get-a-quote__right-side--whatsapp {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.get-a-quote__right-side--whatsapp-text {
+  margin: 20px;
+}
