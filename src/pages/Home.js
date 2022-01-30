@@ -23,8 +23,10 @@ export default function Home() {
           </div>
           <div
             className="text-container__leslie-motto"
-            style={{ backgroundImage: `url(${LeslieMottoImage})` }}
-          ></div>
+            // style={{ backgroundImage: `url(${LeslieMottoImage})` }}
+          >
+            <img src={LeslieMottoImage} alt="leslie-motto" />
+          </div>
         </div>
         <div
           className="product-image"
