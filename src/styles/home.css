@@ -59,3 +59,9 @@
   background-repeat: no-repeat;
   margin: 4rem 0;
 }
+
+@media screen and (max-width: 720px) {
+  .product-image {
+    display: none;
+  }
+}
