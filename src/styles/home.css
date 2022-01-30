@@ -15,6 +15,7 @@
   width: 700px;
   height: 800px;
   background-repeat: no-repeat;
+  /* display: none; */
 }
 
 .text-container {
@@ -60,8 +61,36 @@
   margin: 4rem 0;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 480px) {
   .product-image {
     display: none;
+  }
+
+  .text-container h1 {
+    font-size: 2.5em;
+    text-align: center;
+  }
+
+  .text-container p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .text-container button {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .text-container__button {
+    display: flex;
+    justify-content: center;
+  }
+
+  .text-container__leslie-motto {
+    display: flex;
+    justify-content: center;
   }
 }

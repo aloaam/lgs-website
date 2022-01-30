@@ -12,9 +12,11 @@ export default function Home() {
           <p>
             Our site is currently under construction, but please contact us!
           </p>
-          <Link to="get-a-quote">
-            <button> Contact </button>
-          </Link>
+          <div className="text-container__button">
+            <Link to="get-a-quote">
+              <button> Contact </button>
+            </Link>
+          </div>
           <div
             className="text-container__leslie-motto"
             style={{ backgroundImage: `url(${LeslieMottoImage})` }}
