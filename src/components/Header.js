@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "../assets/svgs/lgs_logo_principal.svg";
 import { Link } from "react-router-dom";
+import MenuIcon from "@mui/icons-material/Menu";
 
 export default function NavBar() {
   return (
