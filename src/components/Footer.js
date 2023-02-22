@@ -25,7 +25,7 @@ export default function Footer() {
         <span className="footer__copyright">
           <CopyrightIcon />
         </span>
-        {new Date().getFullYear()} LGS Leslie Glass Suppliers, Corp.
+        {new Date().getFullYear()} LGS Suppliers, Corp.
       </p>
     </div>
   );
