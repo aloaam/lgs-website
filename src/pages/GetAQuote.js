@@ -36,7 +36,9 @@ export default function GetAQuote() {
           style={{ backgroundImage: `url(${getAQuotePic})` }}
         ></div>
         <div className="get-a-quote__right-side">
-          <h1>Tell us more about your project or idea.</h1>
+          <h1 style={{ color: "#21569c" }}>
+            Tell us more about your project or idea.
+          </h1>
           <form id="contact-form" onSubmit={sendEmail}>
             <input
               name="first-name"

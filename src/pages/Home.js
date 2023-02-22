@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import ProductImage from "../assets/images/pvc_landing_page.png";
 import LeslieMottoImage from "../assets/images/leslie_motto.png";
+import { rgbToHex } from "@mui/material";
 
 export default function Home() {
   return (
@@ -9,7 +10,7 @@ export default function Home() {
       <div className="text-and-product">
         <div className="text-container">
           <div className="text-container__title">
-            <h1>LGS Suppliers</h1>
+            <h1 style={{ color: "#21569c" }}>LGS Suppliers</h1>
           </div>
           <div className="text-container__text">
             <p>
