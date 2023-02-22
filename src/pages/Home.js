@@ -9,7 +9,7 @@ export default function Home() {
       <div className="text-and-product">
         <div className="text-container">
           <div className="text-container__title">
-            <h1>Leslie Glass Suppliers</h1>
+            <h1>LGS Suppliers</h1>
           </div>
           <div className="text-container__text">
             <p>
