@@ -68,7 +68,7 @@ form button {
   width: 140px;
   height: 40px;
   border: none;
-  background-color: var(--primary-color);
+  background-color: var(--theme-blue-60_pct);
   color: whitesmoke;
   font-size: 15px;
   cursor: pointer;

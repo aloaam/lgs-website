@@ -30,7 +30,7 @@
 }
 
 .text-container button {
-  background-color: var(--primary-color);
+  background-color: var(--theme-blue-80_pct);
   border: none;
   border-radius: 25px;
   cursor: pointer;

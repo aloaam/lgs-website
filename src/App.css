@@ -12,6 +12,12 @@
   --primary-color: rgb(57, 57, 57);
 
   --media-query-mobile-max-width: 720px;
+
+  --theme-blue-100_pct: rgb(33, 86, 156);
+  --theme-blue-80_pct: rgb(77, 120, 176);
+  --theme-blue-60_pct: rgb(122, 154, 196);
+  --theme-blue-40_pct: rgb(166, 187, 215);
+  --theme-blue-20_pct: rgb(211, 221, 235);
 }
 body {
   padding: 0;
